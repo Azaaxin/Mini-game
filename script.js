@@ -93,7 +93,7 @@ function lerp(v0, v1, t) {
 var tile_sheet = new Image();
 
 // tile_sheet.addEventListener("load", (event) => { loop(); });
-tile_sheet.src = "http://ludvigolausson.se/game/textures1.png";
+tile_sheet.src = "textures1.png";
 
 let keysPressed = {};
 document.addEventListener('keydown', (event) => {
